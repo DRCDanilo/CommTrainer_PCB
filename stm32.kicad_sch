@@ -3607,12 +3607,6 @@
 		(uuid "f5d6b480-c6d7-4495-b2b3-f4ed499a4518")
 	)
 	(junction
-		(at 227.33 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "007f2936-56f6-4907-9a0e-3ecb06a5823c")
-	)
-	(junction
 		(at 97.79 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3831,16 +3825,6 @@
 			(type default)
 		)
 		(uuid "0925d1ca-d23e-40ca-8a75-824ce8c86bb3")
-	)
-	(wire
-		(pts
-			(xy 237.49 50.8) (xy 237.49 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6bc9ee-54c4-40bd-9547-a73f56b94512")
 	)
 	(wire
 		(pts
@@ -4081,16 +4065,6 @@
 			(type default)
 		)
 		(uuid "2d4b85a6-a1f5-445d-9eb1-b7576f54f1de")
-	)
-	(wire
-		(pts
-			(xy 237.49 52.07) (xy 227.33 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e403a08-8392-45be-8f04-43c14d6ca78a")
 	)
 	(wire
 		(pts
@@ -4364,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 54.61) (xy 228.6 54.61)
+			(xy 226.06 54.61) (xy 228.6 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4832,16 +4806,6 @@
 		)
 		(uuid "afe1eec9-377e-44b7-8afe-cef055b5df26")
 	)
-	(wire
-		(pts
-			(xy 226.06 54.61) (xy 227.33 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b034a747-0319-4dcf-a0b0-a6b4c3fd2398")
-	)
 	(polyline
 		(pts
 			(xy 12.7 129.54) (xy 158.75 129.54)
@@ -5201,16 +5165,6 @@
 			(type default)
 		)
 		(uuid "de906cbe-0563-4171-b339-08a3fb0c7cda")
-	)
-	(wire
-		(pts
-			(xy 227.33 52.07) (xy 227.33 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0137aaf-0c46-463a-8bcd-713a777d28c7")
 	)
 	(wire
 		(pts
@@ -8022,73 +7976,6 @@
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
 					(reference "C210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 237.49 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d4835a1-8c9b-4b6c-89e9-ed9f20bdfa45")
-		(property "Reference" "TP201"
-			(at 240.03 46.2279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 240.03 48.7679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 242.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 237.49 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a06c6138-ec27-4fd3-b682-ca973f68b9b0")
-		)
-		(instances
-			(project ""
-				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "TP201")
 					(unit 1)
 				)
 			)

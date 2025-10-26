@@ -2,3 +2,11 @@
 fp-info-cache
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
