@@ -3631,7 +3631,7 @@
 		(uuid "1da100aa-9759-49ca-a7e2-14ff16fc5107")
 	)
 	(junction
-		(at 135.89 177.8)
+		(at 142.24 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2195d825-ea1e-41e1-b26f-a7d47378e445")
@@ -3641,6 +3641,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27c474bb-56ee-496c-bba1-aab3ad18919d")
+	)
+	(junction
+		(at 120.65 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a9ad38a-a428-4248-aa94-2fee5e2decc2")
 	)
 	(junction
 		(at 85.09 163.83)
@@ -3661,6 +3667,12 @@
 		(uuid "48ece71f-5620-4749-8f07-b1d0435b4bda")
 	)
 	(junction
+		(at 102.87 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e23af29-5f00-48a3-a8db-ebed7c701cfe")
+	)
+	(junction
 		(at 251.46 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3679,7 +3691,7 @@
 		(uuid "6fa30c5b-3e4e-49be-a920-073f8dc40465")
 	)
 	(junction
-		(at 119.38 153.67)
+		(at 125.73 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fd89cc7-6740-4a29-8514-fe04c3866f5a")
@@ -3695,6 +3707,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "920e2244-7a44-438e-8d0b-aab6da0d4af5")
+	)
+	(junction
+		(at 105.41 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d07be02-9ca0-43aa-8768-24becc34d7b5")
 	)
 	(junction
 		(at 212.09 81.28)
@@ -3727,16 +3745,16 @@
 		(uuid "bcab0709-69d7-4771-a50e-78b3f4709895")
 	)
 	(junction
-		(at 135.89 175.26)
+		(at 142.24 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1705e71-dffc-41f0-9571-a4cd34d626d5")
 	)
 	(junction
-		(at 114.3 153.67)
+		(at 93.98 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d966efae-02ff-45c6-a322-f5b12e108862")
+		(uuid "ccab76cc-d7ba-4804-a20c-1a709634249d")
 	)
 	(junction
 		(at 251.46 138.43)
@@ -3781,7 +3799,7 @@
 		(uuid "fd969f01-05b8-4512-9de6-de2215c4ed6f")
 	)
 	(no_connect
-		(at 119.38 187.96)
+		(at 125.73 187.96)
 		(uuid "3a725a35-3150-4708-ae21-18ab3e50d36d")
 	)
 	(no_connect
@@ -3793,7 +3811,7 @@
 		(uuid "7a4b9b26-5bac-457a-94f4-a5a63e8c6429")
 	)
 	(no_connect
-		(at 109.22 162.56)
+		(at 115.57 162.56)
 		(uuid "a33b41b4-7630-4d65-97ac-78d6de7d972d")
 	)
 	(wire
@@ -3868,16 +3886,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 172.72) (xy 76.2 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1009a8fd-d660-4e81-8d7d-029488f1f774")
-	)
-	(wire
-		(pts
 			(xy 119.38 58.42) (xy 120.65 58.42)
 		)
 		(stroke
@@ -3918,13 +3926,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 175.26) (xy 135.89 175.26)
+			(xy 133.35 175.26) (xy 142.24 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "179d5469-e6ad-4320-bcec-062f5244dcc8")
+	)
+	(wire
+		(pts
+			(xy 100.33 189.23) (xy 102.87 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192d41ec-9aca-4243-a454-fd738b6fe582")
 	)
 	(wire
 		(pts
@@ -3998,13 +4016,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 151.13) (xy 119.38 153.67)
+			(xy 125.73 151.13) (xy 125.73 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23c2592d-b3cd-4cd2-9fc6-1442dcc25059")
+	)
+	(wire
+		(pts
+			(xy 102.87 189.23) (xy 102.87 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b3e022-ef8d-4485-b4cf-0fffdf146bc0")
 	)
 	(wire
 		(pts
@@ -4078,7 +4106,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 172.72) (xy 76.2 173.99)
+			(xy 60.96 172.72) (xy 60.96 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4108,7 +4136,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 187.96) (xy 114.3 190.5)
+			(xy 93.98 189.23) (xy 93.98 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f2a87c-0088-4a60-8da6-5fc2b27690d5")
+	)
+	(wire
+		(pts
+			(xy 120.65 187.96) (xy 120.65 190.5)
 		)
 		(stroke
 			(width 0)
@@ -4228,6 +4266,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 180.34) (xy 107.95 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ef8635-bec4-4085-9d26-40a989960529")
+	)
+	(wire
+		(pts
+			(xy 91.44 189.23) (xy 93.98 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466a7527-98d1-46be-8f10-1f31e4023335")
+	)
+	(wire
+		(pts
 			(xy 38.1 162.56) (xy 38.1 165.1)
 		)
 		(stroke
@@ -4278,7 +4336,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 186.69) (xy 135.89 186.69)
+			(xy 146.05 186.69) (xy 142.24 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4288,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 162.56) (xy 114.3 153.67)
+			(xy 120.65 162.56) (xy 120.65 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4328,7 +4386,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 175.26) (xy 101.6 175.26)
+			(xy 86.36 175.26) (xy 105.41 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4345,6 +4403,16 @@
 			(type default)
 		)
 		(uuid "59fb7390-5c8a-4f5c-bccb-8a354e2e2fbf")
+	)
+	(wire
+		(pts
+			(xy 60.96 172.72) (xy 107.95 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bce0ce1-8607-42ca-a8fc-a4b9323f89a2")
 	)
 	(wire
 		(pts
@@ -4388,23 +4456,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 186.69) (xy 135.89 177.8)
+			(xy 142.24 186.69) (xy 142.24 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "61189cf9-b37b-4966-9247-40ae0d82c1d4")
-	)
-	(wire
-		(pts
-			(xy 144.78 168.91) (xy 135.89 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "657121c9-984e-4e4f-a7fc-d414ee80ebfc")
 	)
 	(wire
 		(pts
@@ -4508,6 +4566,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 177.8) (xy 107.95 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74557289-c46f-4675-bf3b-9161735e18b5")
+	)
+	(wire
+		(pts
 			(xy 251.46 118.11) (xy 251.46 124.46)
 		)
 		(stroke
@@ -4518,7 +4586,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 175.26) (xy 137.16 175.26)
+			(xy 142.24 175.26) (xy 143.51 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4588,7 +4656,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 177.8) (xy 101.6 177.8)
+			(xy 86.36 177.8) (xy 102.87 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4658,6 +4726,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 175.26) (xy 105.41 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921f2fdb-e0a0-41ed-b118-b42ffd932e84")
+	)
+	(wire
+		(pts
 			(xy 39.37 63.5) (xy 52.07 63.5)
 		)
 		(stroke
@@ -4685,6 +4763,16 @@
 			(type default)
 		)
 		(uuid "96a5952e-7b1f-4262-8cab-032cbfa8b336")
+	)
+	(wire
+		(pts
+			(xy 105.41 189.23) (xy 107.95 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e2ed84-d7d3-4c8d-884a-16b32c3cd55b")
 	)
 	(wire
 		(pts
@@ -4718,7 +4806,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 177.8) (xy 135.89 177.8)
+			(xy 133.35 177.8) (xy 142.24 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4838,6 +4926,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 175.26) (xy 107.95 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b807ad29-3ab5-43f2-80b2-07650b14960f")
+	)
+	(wire
+		(pts
 			(xy 52.07 69.85) (xy 52.07 72.39)
 		)
 		(stroke
@@ -4858,7 +4956,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 153.67) (xy 114.3 153.67)
+			(xy 97.79 153.67) (xy 120.65 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4998,7 +5096,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 177.8) (xy 137.16 177.8)
+			(xy 142.24 177.8) (xy 143.51 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5168,7 +5266,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 162.56) (xy 119.38 153.67)
+			(xy 125.73 162.56) (xy 125.73 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5178,7 +5276,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 153.67) (xy 114.3 153.67)
+			(xy 125.73 153.67) (xy 120.65 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5208,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 179.07) (xy 76.2 180.34)
+			(xy 60.96 179.07) (xy 60.96 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5258,7 +5356,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 168.91) (xy 135.89 175.26)
+			(xy 142.24 166.37) (xy 142.24 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5278,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 180.34) (xy 101.6 180.34)
+			(xy 86.36 180.34) (xy 93.98 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5418,7 +5516,7 @@
 	)
 	(global_label "CS_ACCE_SP1"
 		(shape input)
-		(at 100.33 180.34 180)
+		(at 86.36 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5428,7 +5526,7 @@
 		)
 		(uuid "068729c1-949e-4635-ae9b-51a1c21950d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.4635 180.34 0)
+			(at 70.4935 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5670,7 @@
 	)
 	(global_label "SDIO_ACCE_SPI1"
 		(shape input)
-		(at 100.33 175.26 180)
+		(at 86.36 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5582,7 +5680,7 @@
 		)
 		(uuid "2e18473a-e4ef-44f0-a381-ec49f5e13843")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.9234 175.26 0)
+			(at 67.9534 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5736,7 @@
 	)
 	(global_label "SCK_ACCE_SPI1"
 		(shape input)
-		(at 100.33 177.8 180)
+		(at 86.36 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5648,7 +5746,7 @@
 		)
 		(uuid "5c46c68b-e5fd-4141-b8ac-6090b7e0925c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.5887 177.8 0)
+			(at 68.6187 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +5890,7 @@
 	)
 	(global_label "INT1_ACCE"
 		(shape input)
-		(at 137.16 175.26 0)
+		(at 143.51 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5802,7 +5900,7 @@
 		)
 		(uuid "75111c0d-b89e-4981-83f3-3b9913ca6ee5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.0028 175.26 0)
+			(at 156.3528 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +6088,7 @@
 	)
 	(global_label "INT2_ACCE"
 		(shape input)
-		(at 137.16 177.8 0)
+		(at 143.51 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6000,7 +6098,7 @@
 		)
 		(uuid "bf47bd5d-76a5-4de5-93ac-809c43e8e459")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.0028 177.8 0)
+			(at 156.3528 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +6470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06636cb8-e626-4313-9fe4-72a8feb74ba3")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0217"
 			(at 179.07 149.86 0)
 			(effects
 				(font
@@ -6422,7 +6520,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0214")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -6438,7 +6536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f4cb10-be16-48c4-a04a-c4dbf617bdfd")
-		(property "Reference" "J203"
+		(property "Reference" "J202"
 			(at 189.23 135.8899 0)
 			(effects
 				(font
@@ -6504,7 +6602,7 @@
 		(instances
 			(project ""
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "J203")
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c71bd2-6598-4ad3-81bb-97a8f6eca1d3")
-		(property "Reference" "R203"
+		(property "Reference" "R206"
 			(at 26.67 172.7199 0)
 			(effects
 				(font
@@ -6574,7 +6672,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "R203")
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -6721,7 +6819,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Motion:ADXL343")
-		(at 114.3 175.26 0)
+		(at 120.65 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6730,7 +6828,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f8065c3-85f2-497d-9715-4b40e474c839")
 		(property "Reference" "U202"
-			(at 129.54 168.8398 0)
+			(at 135.89 168.8398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +6836,7 @@
 			)
 		)
 		(property "Value" "ADXL343"
-			(at 129.54 171.3798 0)
+			(at 135.89 171.3798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6746,7 +6844,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y"
-			(at 114.3 175.26 0)
+			(at 120.65 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6853,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf"
-			(at 114.3 175.26 0)
+			(at 120.65 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6764,7 +6862,7 @@
 			)
 		)
 		(property "Description" "3-Axis MEMS Accelerometer, 2/4/8/16g range, I2C/SPI, LGA-14"
-			(at 114.3 175.26 0)
+			(at 120.65 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +6923,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 119.38 151.13 0)
+		(at 125.73 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6834,7 +6932,7 @@
 		(fields_autoplaced yes)
 		(uuid "235afba0-bde0-4ae7-9173-4a4d5f9b57d7")
 		(property "Reference" "#FLG0203"
-			(at 119.38 149.225 0)
+			(at 125.73 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +6941,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 119.38 146.05 0)
+			(at 125.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +6949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 151.13 0)
+			(at 125.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +6958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 151.13 0)
+			(at 125.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +6967,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 119.38 151.13 0)
+			(at 125.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6899,7 +6997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "259c91e0-a6b0-4cda-b47f-09d0ee7f9717")
-		(property "Reference" "R204"
+		(property "Reference" "R207"
 			(at 40.64 172.7199 0)
 			(effects
 				(font
@@ -6953,7 +7051,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "R204")
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -7028,7 +7126,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 168.91 0)
+		(at 142.24 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7036,8 +7134,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "304c41f6-090d-4f9f-b85f-54ed704b6c2c")
-		(property "Reference" "TP202"
-			(at 147.32 164.3379 0)
+		(property "Reference" "INT201"
+			(at 144.78 161.7979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,8 +7143,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 147.32 166.8779 0)
+		(property "Value" "INT1"
+			(at 144.78 164.3379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,7 +7153,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 149.86 168.91 0)
+			(at 147.32 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,7 +7162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 168.91 0)
+			(at 147.32 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7171,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 144.78 168.91 0)
+			(at 142.24 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7185,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "TP202")
+					(reference "INT201")
 					(unit 1)
 				)
 			)
@@ -7161,7 +7259,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 180.34 0)
+		(at 60.96 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7169,8 +7267,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37d27a01-9fc6-44ee-819f-bb5dfecd2cd3")
-		(property "Reference" "#PWR0222"
-			(at 76.2 186.69 0)
+		(property "Reference" "#PWR0224"
+			(at 60.96 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7277,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 185.42 0)
+			(at 60.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 180.34 0)
+			(at 60.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 180.34 0)
+			(at 60.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 180.34 0)
+			(at 60.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7219,7 +7317,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0222")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -7293,7 +7391,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 76.2 176.53 180)
+		(at 60.96 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7301,8 +7399,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ebe098a-01ce-4a55-93f7-9fa55ae86121")
-		(property "Reference" "R206"
-			(at 78.74 175.2599 0)
+		(property "Reference" "R209"
+			(at 63.5 175.2599 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7311,7 +7409,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 78.74 177.7999 0)
+			(at 63.5 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7418,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.2 176.53 0)
+			(at 60.96 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 176.53 0)
+			(at 60.96 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7436,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 76.2 176.53 0)
+			(at 60.96 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7453,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "R206")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -7506,7 +7604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d5cafe4-202c-4357-849f-bc09ae4c0183")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0221"
 			(at 24.13 184.15 0)
 			(effects
 				(font
@@ -7556,7 +7654,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0217")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -7572,7 +7670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d71ffb4-a9f6-469e-b70a-0a8abcd4a5bb")
-		(property "Reference" "J204"
+		(property "Reference" "J203"
 			(at 265.43 135.8899 0)
 			(effects
 				(font
@@ -7632,7 +7730,7 @@
 		(instances
 			(project ""
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "J204")
+					(reference "J203")
 					(unit 1)
 				)
 			)
@@ -7777,7 +7875,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 190.5 0)
+		(at 120.65 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7785,8 +7883,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53df8abf-1eb9-4ac0-b622-f5367096a672")
-		(property "Reference" "#PWR0221"
-			(at 114.3 196.85 0)
+		(property "Reference" "#PWR0225"
+			(at 120.65 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,7 +7893,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 195.58 0)
+			(at 120.65 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +7901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 190.5 0)
+			(at 120.65 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +7910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 190.5 0)
+			(at 120.65 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7919,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 190.5 0)
+			(at 120.65 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +7933,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0221")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -7851,7 +7949,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "55a88e4c-45ac-4809-832c-8b32cb21cdba")
-		(property "Reference" "R209"
+		(property "Reference" "R203"
 			(at 240.03 125.7299 0)
 			(effects
 				(font
@@ -7905,7 +8003,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "R209")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -8057,7 +8155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f61f770-3f56-41ca-b5c5-962dfed702a7")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0223"
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -8107,7 +8205,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0212")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -8697,7 +8795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783020c4-52e2-4d5e-8e84-c139af2e6c0f")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0212"
 			(at 256.54 120.65 0)
 			(effects
 				(font
@@ -8747,7 +8845,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0223")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -8904,7 +9002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961998e5-9dd8-4a0d-b4b2-af523224151f")
-		(property "Reference" "J205"
+		(property "Reference" "J204"
 			(at 220.98 137.1599 0)
 			(effects
 				(font
@@ -8964,7 +9062,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "J205")
+					(reference "J204")
 					(unit 1)
 				)
 			)
@@ -9048,7 +9146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fbd759e-2ed5-4276-a60d-2cf0723242c7")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0216"
 			(at 210.82 148.59 0)
 			(effects
 				(font
@@ -9098,7 +9196,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0226")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -9114,7 +9212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a045d490-7b96-43e4-8a04-8d4f7a1d6824")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0215"
 			(at 255.27 147.32 0)
 			(effects
 				(font
@@ -9164,7 +9262,73 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0224")
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a11f4d9f-26ad-4420-b1aa-52254bb0e58c")
+		(property "Reference" "SDIO201"
+			(at 107.95 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDIO"
+			(at 107.95 193.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 113.03 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fe2671d-a766-4ce7-b4d6-6e2b63b1d5e3")
+		)
+		(instances
+			(project "tuto_kicad"
+				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
+					(reference "SDIO201")
 					(unit 1)
 				)
 			)
@@ -9316,7 +9480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad218083-bc0c-4e5f-9367-98c017e96f7a")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0214"
 			(at 210.82 138.43 0)
 			(effects
 				(font
@@ -9366,7 +9530,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0225")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -9452,7 +9616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b31d9691-8b37-4ad3-9f06-6c5ead006ee5")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0219"
 			(at 24.13 166.37 0)
 			(effects
 				(font
@@ -9502,7 +9666,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0216")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -9518,7 +9682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b443bec6-db47-465e-9cf6-b63d9dc5c9f6")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0222"
 			(at 38.1 184.15 0)
 			(effects
 				(font
@@ -9568,7 +9732,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0218")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -9635,6 +9799,72 @@
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
 					(reference "#FLG0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 91.44 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c39f2c95-5ac2-4790-8c67-9f2dfa0a0055")
+		(property "Reference" "CS201"
+			(at 91.186 190.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CS"
+			(at 91.44 192.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 96.52 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f61c1738-c8ac-4e6d-843c-5f730a45d374")
+		)
+		(instances
+			(project "tuto_kicad"
+				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
+					(reference "CS201")
 					(unit 1)
 				)
 			)
@@ -9716,7 +9946,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "c656a039-a38e-4ab3-99c1-592626f58298")
-		(property "Reference" "R208"
+		(property "Reference" "R204"
 			(at 248.92 125.7299 0)
 			(effects
 				(font
@@ -9770,7 +10000,7 @@
 		(instances
 			(project ""
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "R208")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -9944,7 +10174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d46a7719-b1b6-4b7f-a255-5cfe3cf525ca")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0218"
 			(at 85.09 148.59 0)
 			(effects
 				(font
@@ -9994,7 +10224,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "#PWR0219")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -10145,7 +10375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd4818df-677c-4f50-b652-b6d1d6b07fb5")
-		(property "Reference" "R207"
+		(property "Reference" "R208"
 			(at 50.8 172.7199 0)
 			(effects
 				(font
@@ -10199,7 +10429,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "R207")
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -10207,16 +10437,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 139.7 186.69 0)
+		(at 100.33 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de9f1f62-a9d7-4fdf-8bab-98993041fab8")
-		(property "Reference" "TP203"
-			(at 142.24 182.1179 0)
+		(uuid "dda14ec9-9094-48ee-a695-6ab314b11561")
+		(property "Reference" "SCK201"
+			(at 100.33 192.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,8 +10453,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 142.24 184.6579 0)
+		(property "Value" "SCK"
+			(at 100.33 193.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,7 +10463,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 144.78 186.69 0)
+			(at 105.41 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10243,7 +10472,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 186.69 0)
+			(at 105.41 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10252,7 +10481,74 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 139.7 186.69 0)
+			(at 100.33 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c9976e9-d025-4bb3-ae7c-7a2bdafa31f3")
+		)
+		(instances
+			(project "tuto_kicad"
+				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
+					(reference "SCK201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de9f1f62-a9d7-4fdf-8bab-98993041fab8")
+		(property "Reference" "INT202"
+			(at 148.59 182.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INT2"
+			(at 148.59 184.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 151.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10266,7 +10562,7 @@
 		(instances
 			(project "tuto_kicad"
 				(path "/5940bb1c-61ff-4c26-9370-fcac6864aece/72bb437a-e2b3-4939-b8a1-9a9100d1fa62"
-					(reference "TP203")
+					(reference "INT202")
 					(unit 1)
 				)
 			)
